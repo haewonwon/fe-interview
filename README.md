@@ -10,7 +10,7 @@
 - [**📁 Operating System**](Operating_System/)
 - [**📁 Data Structure**](Data_Structure/)
 - [**📁 Computer Architecture**](Computer_Architecture/)
-- [**📁 Computer Networks**](Computer_Networks/)
+- [**📁 Computer Networks**](Computer_Networks/README.md)
 
 ---
 
