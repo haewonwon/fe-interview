@@ -5,12 +5,12 @@
 
 ## 📂 폴더 구조 및 내용
 
-- [**📁 Database**](Database/)
-- [**📁 Algorithm**](Algorithm/)
-- [**📁 Operating System**](Operating_System/)
-- [**📁 Data Structure**](Data_Structure/)
-- [**📁 Computer Architecture**](Computer_Architecture/)
-- [**📁 Computer Networks**](Computer_Networks/README.md)
+- [**📁 Database (데이터베이스)**](Database/)
+- [**📁 Algorithm (알고리즘)**](Algorithm/)
+- [**📁 Operating System (운영체제)**](Operating_System/)
+- [**📁 Data Structure (자료구조)**](Data_Structure/)
+- [**📁 Computer Architecture (컴퓨터 구조)**](Computer_Architecture/)
+- [**📁 Computer Networks (컴퓨터 네트워크)**](Computer_Networks/README.md)
 
 ---
 
