@@ -1,16 +1,17 @@
-# CS Study 📚
+# FE Interview 📚
 
-이 레포지토리는 **컴퓨터 과학 (CS) 개념을 정리**하는 공간입니다.  
-핵심 CS 개념을 빠르게 복습하고, 기술 면접 및 학습에 활용할 수 있도록 정리되었습니다.
+이 레포지토리는 **프론트엔드 면접을 대비하기 위해 공부한 것을 기록**하는 공간입니다.  
+CS뿐 아니라 프론트엔드 전반에 걸친 주요 개념들을 정리하여, 면접 대비 및 지식 정리에 활용할 수 있도록 구성했습니다.
 
 ## 📂 폴더 구조 및 내용
 
-- [**📁 Database (데이터베이스)**](Database/)
-- [**📁 Algorithm (알고리즘)**](Algorithm/)
-- [**📁 Operating System (운영체제)**](Operating_System/)
-- [**📁 Data Structure (자료구조)**](Data_Structure/)
-- [**📁 Computer Architecture (컴퓨터 구조)**](Computer_Architecture/)
-- [**📁 Computer Networks (컴퓨터 네트워크)**](Computer_Networks/README.md)
+- [**📁 Frontend**](Frontend/README.md)
+- [**📁 Database**](Database/README.md)
+- [**📁 Algorithm**](Algorithm/README.md)
+- [**📁 Operating System**](Operating_System/README.md)
+- [**📁 Data Structure**](Data_Structure/README.md)
+- [**📁 Computer Architecture**](Computer_Architecture/README.md)
+- [**📁 Computer Networks**](Computer_Networks/README.md)
 
 ---
 
