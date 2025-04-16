@@ -5,7 +5,7 @@ CS뿐 아니라 프론트엔드 전반에 걸친 주요 개념들을 정리하�
 
 ## 📂 폴더 구조 및 내용
 
-- [**📁 Frontend**](Frontend/README.md)
+- [**🖥️ Frontend**](Frontend/README.md)
 - [**📁 Database**](Database/README.md)
 - [**📁 Algorithm**](Algorithm/README.md)
 - [**📁 Operating System**](Operating_System/README.md)
