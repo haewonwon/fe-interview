@@ -60,7 +60,7 @@
 - DOM 요소의 타입이 다르면 (`<div>` → `<span>`) 이전 노드를 버리고 새 노드 생성
 - 자식 노드도 모두 새로 만듦 (비효율처럼 보이지만 실제로는 대부분 효율적)
 
-```
+```tsx
 // 이전
 <div className="before" title="stuff" />
 
@@ -75,10 +75,10 @@
 - 같은 레벨의 자식 요소들을 비교할 때, key 값을 기준으로 요소를 추적
 - 리스트에서 일부 항목만 변경되더라도 전체를 다시 만들지 않고, 변경된 항목만 업데이트
 
-```
-{items.map((item) => (
-  <li key={item.id}>{item.name}</li>
-))}
+```tsx
+{
+  items.map((item) => <li key={item.id}>{item.name}</li>);
+}
 ```
 
 → key를 통해 React는 각 아이템의 정체성을 기억함

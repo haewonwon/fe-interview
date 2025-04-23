@@ -8,7 +8,7 @@
 
 **예시**
 
-```
+```tsx
 Content-Type: application/json
 Content-Type: text/html
 Content-Type: multipart/form-data
@@ -18,7 +18,7 @@ Content-Type: multipart/form-data
 
 **1. JSON 전송**
 
-```
+```tsx
 fetch('/api/data', {
   method: 'POST',
   headers: {
@@ -30,7 +30,7 @@ fetch('/api/data', {
 
 **2. Form 데이터 전송 (form tag or JS)**
 
-```
+```tsx
 const formData = new FormData();
 formData.append('file', file);
 
@@ -42,7 +42,7 @@ fetch('/upload', {
 
 **3. URL-encoded 폼 데이터**
 
-```
+```tsx
 fetch('/submit', {
   method: 'POST',
   headers: {
@@ -50,7 +50,7 @@ fetch('/submit', {
   },
   body: new URLSearchParams({
     name: '해원',
-    age: '22'
+    age: '22',
   }),
 });
 ```
@@ -87,7 +87,7 @@ fetch('/submit', {
 
 **3. charset 지정 (텍스트 인코딩 명시)**
 
-```
+```tsx
 Content-Type: text/html; charset=UTF-8
 ```
 
