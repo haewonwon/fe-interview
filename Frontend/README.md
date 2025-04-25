@@ -26,6 +26,7 @@
 | **Content Type**    | [🔗 Content_Type.md](Content_Type.md)       |
 | **React Hook**      | [🔗 React_Hook.md](React_Hook.md)           |
 | **Package Manager** | [🔗 Package_Manager.md](Package_Manager.md) |
+| **Next.js**         | [🔗 Next.js.md](Next.js.md)                 |
 
 ---
 
