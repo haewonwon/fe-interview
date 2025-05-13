@@ -29,6 +29,7 @@
 | **Next.js**                    | [🔗 Next.js.md](Next.js.md)                 |
 | **BFF (Backend For Frontend)** | [🔗 BFF.md](BFF.md)                         |
 | **웹뷰 (WebView)**             | [🔗 WebView.md](WebView.md)                 |
+| **never, unknown type**        | [🔗 Never_Unknown.md](Never_Unknown.md)     |
 
 ---
 
