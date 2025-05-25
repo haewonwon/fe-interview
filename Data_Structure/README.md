@@ -1,4 +1,4 @@
-# 📂 Data Structure Essentials 개요
+# 📂 Data Structure 개요
 
 ## 📌 학습 목표
 
