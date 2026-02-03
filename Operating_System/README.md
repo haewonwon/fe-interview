@@ -22,8 +22,8 @@
 | 주제                  | 문서                                      |
 | --------------------- | ----------------------------------------- |
 | **OS 개요 및 커널**   | [🔗 OS_Intro.md](OS_Intro.md)             |
-| **프로세스와 스레드** | [🔗 Process_Thread.md](Process_Thread.md) |
 
+<!-- | **프로세스와 스레드** | [🔗 Process_Thread.md](Process_Thread.md) | -->
 <!-- | **CPU 스케줄링**      | [🔗 CPU_Scheduling.md](CPU_Scheduling.md) | -->
 
 ---
