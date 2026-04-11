@@ -23,6 +23,7 @@
 | **기본 자료구조** | [🔗 basic.md](basic.md)           |
 | **Array, List**   | [🔗 Array_List.md](Array_List.md) |
 | **스택 (Stack)**  | [🔗 Stack.md](Stack.md)           |
+| **큐 (Queue)**    | [🔗 Queue.md](Queue.md)           |
 
 <!-- | **연결 리스트 (Linked List)** | [🔗 Linked_List.md](Linked_List.md) |
 | **스택 (Stack)**              | [🔗 Stack.md](Stack.md)             |

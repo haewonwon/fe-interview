@@ -27,9 +27,9 @@ size(): 큐에 들어 있는 전체 요소의 수를 반환
 
 - 삽입과 삭제를 각각 enqueue와 dequeue라고 부름
 - 큐에서도 두 가지 오류 상황을 만날 수 있음
-    - 포화 상태인 큐에 enqueue() 연산을 실행하는 경우의 오버플로(overflow) 오류
-    - 공백인 큐에서 dequeue()이나 peek() 연산을 실행하는 경우 발생한느 언더플로(underflow) 오류
-    - 큐를 안정적으로 사용하기 위해서는 상태 검사가 필수적임
+  - 포화 상태인 큐에 enqueue() 연산을 실행하는 경우의 오버플로(overflow) 오류
+  - 공백인 큐에서 dequeue()이나 peek() 연산을 실행하는 경우 발생한느 언더플로(underflow) 오류
+  - 큐를 안정적으로 사용하기 위해서는 상태 검사가 필수적임
 
 ### 배열 구조의 큐를 위한 데이터
 
@@ -86,11 +86,11 @@ front: 첫 번째(전단) 요소 바로 이전의 위치(인덱스)
 
 ```python
 class ArrayQueue:
-		def __init__(self, capacity = 10): # 생성자 정의
-				self.capacity = capacity # 용량(고정)
-				self.array = [None] * capacity # 요소들을 저장할 배열
-				self.front = 0 # 전단 인덱스
-				self.rear = 0 # 후단 인덱스
+	def __init__(self, capacity = 10): # 생성자 정의
+		self.capacity = capacity # 용량(고정)
+		self.array = [None] * capacity # 요소들을 저장할 배열
+		self.front = 0 # 전단 인덱스
+		self.rear = 0 # 후단 인덱스
 ```
 
 **공백 상태와 포화 상태를 검사하는 isEmpty()와 isFull() 연산**
@@ -102,3 +102,74 @@ class ArrayQueue:
 - 따라서 원형 큐에서는 보통 하나의 자리를 비워두는 전략을 사용함
 - 즉 front가 rear의 바로 다음에 있으면 포화 상태라고 정의함
 - 시계 방향의 회전까지 고려하면, front == (rear+1) % capacity가 포화 상태임
+
+```python
+# 공백 상태
+def isEmpty( self ) :
+	return self.front == self.rear
+
+# 포화 상태
+def isFull( self ) :
+	return self.front == (self.rear+1)%self.capacity
+```
+
+**새로운 요소 e를 삽입하는 enqueue(e) 연산**
+
+- 후단 rear를 먼저 시계 방향으로 한 칸 회전시키고, 그 위치에 새로운 요소 e를 복사하면 됨
+- 물론 삽입은 포화 상태가 아니어야 가능함
+
+```python
+# 삽입 연산
+def enqueue( self, item ):
+	if not self.isFull(): # 포화 상태가 아닌 경우
+		self.rear = (self.rear + 1) % self.capacity
+		self.array[self.rear] = item
+	else: pass # 오버플로 오류: 처리 안 함
+```
+
+**맨 앞의 요소를 삭제하는 dequeue() 연산**
+
+- 삭제는 큐에 요소가 남아 있어야 가능함
+- 큐가 공백이 아니면 먼저 front를 시계 방향으로 한 칸 회전시키고 그 위치의 요소를 반환하면 됨
+
+```python
+def dequeue( self ):
+	if not self.isEmpty():
+		self.front = (self.front + 1) % self.capacity
+		return self.arr[self.front]
+	else: pass
+```
+
+**맨 앞의 요소를 들여다 보는 peek() 연산**
+
+- peek()도 공백이 아니어야 가능함
+- front를 시계 방향으로 한 칸 회전시킨 위치의 요소를 반환하면 됨
+- 이때 front 자체를 변경하지 않아야 하는 것에 유의해야 함
+
+```python
+def peek( self ):
+	if not self.isEmpty():
+		return self.array[(self.front + 1) % self.capacity]
+	else: pass
+```
+
+**전체 요소의 수를 구하는 size() 연산**
+
+- 선형 큐라면 요소의 수는 rear-front로 쉽게 계산할 수 있음
+- 그러나 원형 큐에서는 rear-front가 음수가 될 수도 있음
+- 만약 rear-front가 음수라면 추가로 용량을 더해 양수로 만들어야 함
+- 따라서 원형 큐의 전체 요소는 `(rear-front+capacity) % capacity`가 됨
+
+**큐의 내용을 출력하는 display() 연산**
+
+- 원형 큐에 저장된 모든 요소를 큐에 들어온 순서대로 화면에 보기 좋게 출력하는 연산
+- 맨 앞 요소는 front의 다음 위치(front+1)에 있으며, 출력할 요소는 size()개임
+- 물론 인덱스는 시계 방향으로 회전되어야 하므로 나머지 연산 %를 적용해야 함
+
+```python
+def display( self, msg ):
+	print(msg, end='=[')
+	for i in range(self.front+1, self.front+1+self.size()):
+		print(self.array[i%self.capacity], end=' ')
+	print("]")
+```
