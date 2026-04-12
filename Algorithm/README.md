@@ -22,7 +22,7 @@
 | --------------------------------- | ------------------------------------------------- |
 | **정렬 (Sorting)**                | [🔗 Sorting.md](Sorting.md)                       |
 | **탐색 (Search)**                 | [🔗 Search.md](Search.md)                         |
-| \*\*분할 정복(Divide and Conquer) | [🔗 Divide_and_Conquer.md](Divide_and_Conquer.md) |
+| **분할 정복(Divide and Conquer)** | [🔗 Divide_and_Conquer.md](Divide_and_Conquer.md) |
 
 <!-- | 주제                                 | 문서                                                |
 | ------------------------------------ | --------------------------------------------------- |
