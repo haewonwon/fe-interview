@@ -21,11 +21,10 @@
 | 주제               | 문서                        |
 | ------------------ | --------------------------- |
 | **정렬 (Sorting)** | [🔗 Sorting.md](Sorting.md) |
+| **탐색 (Search)**  | [🔗 Search.md](Search.md)   |
 
 <!-- | 주제                                 | 문서                                                |
 | ------------------------------------ | --------------------------------------------------- |
-| **정렬 (Sorting)**                   | [🔗 Sorting.md](Sorting.md)                         |
-| **탐색 (Search)**                    | [🔗 Search.md](Search.md)                           |
 | **재귀 (Recursion)**                 | [🔗 Recursion.md](Recursion.md)                     |
 | **그리디 (Greedy)**                  | [🔗 Greedy.md](Greedy.md)                           |
 | **투포인터 (Two Pointers)**          | [🔗 Two_Pointers.md](Two_Pointers.md)               |
