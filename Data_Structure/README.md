@@ -18,17 +18,17 @@
 
 ## 📚 목차
 
-| 주제              | 문서                              |
-| ----------------- | --------------------------------- |
-| **기본 자료구조** | [🔗 basic.md](basic.md)           |
-| **Array, List**   | [🔗 Array_List.md](Array_List.md) |
-| **스택 (Stack)**  | [🔗 Stack.md](Stack.md)           |
-| **큐 (Queue)**    | [🔗 Queue.md](Queue.md)           |
-| **리스트 (List)** | [🔗 List.md](List.md)             |
+| 주제               | 문서                              |
+| ------------------ | --------------------------------- |
+| **기본 자료구조**  | [🔗 basic.md](basic.md)           |
+| **Array, List**    | [🔗 Array_List.md](Array_List.md) |
+| **스택 (Stack)**   | [🔗 Stack.md](Stack.md)           |
+| **큐 (Queue)**     | [🔗 Queue.md](Queue.md)           |
+| **리스트 (List)**  | [🔗 List.md](List.md)             |
+| **트리 (Tree)**    | [🔗 Tree.md](Tree.md)             |
+| **그래프 (Graph)** | [🔗 Graph.md](Graph.md)           |
 
 <!-- | **연결 리스트 (Linked List)** | [🔗 Linked_List.md](Linked_List.md) |
-| **스택 (Stack)**              | [🔗 Stack.md](Stack.md)             |
-| **큐 (Queue)**                | [🔗 Queue.md](Queue.md)             |
 | **트리 (Tree)**               | [🔗 Tree.md](Tree.md)               |
 | **그래프 (Graph)**            | [🔗 Graph.md](Graph.md)             |
 | **힙 (Heap)**                 | [🔗 Heap.md](Heap.md)               |
