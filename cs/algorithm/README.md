@@ -18,14 +18,15 @@
 
 ## 📚 목차
 
-| 주제                              | 문서                                                        |
-| --------------------------------- | ----------------------------------------------------------- |
-| **정렬 (Sorting)**                | [🔗 sorting.md](sorting.md)                                 |
-| **탐색 (Search)**                 | [🔗 search.md](search.md)                                   |
-| **분할 정복 (Divide and Conquer)**| [🔗 divide-and-conquer.md](divide-and-conquer.md)           |
+| 주제                               | 문서                                              |
+| ---------------------------------- | ------------------------------------------------- |
+| **정렬 (Sorting)**                 | [🔗 sorting.md](sorting.md)                       |
+| **탐색 (Search)**                  | [🔗 search.md](search.md)                         |
+| **분할 정복 (Divide and Conquer)** | [🔗 divide-and-conquer.md](divide-and-conquer.md) |
+| **그리디 (Greedy)**                | [🔗 greedy.md](greedy.md)                         |
+| **다이나믹 프로그래밍 (DP)**       | [🔗 dp.md](dp.md)                                 |
 
 <!-- | **재귀 (Recursion)**                 | [🔗 recursion.md](recursion.md)                             |
-| **그리디 (Greedy)**                  | [🔗 greedy.md](greedy.md)                                   |
 | **투포인터 (Two Pointers)**          | [🔗 two-pointers.md](two-pointers.md)                       |
 | **슬라이딩 윈도우 (Sliding Window)** | [🔗 sliding-window.md](sliding-window.md)                   |
 | **이진 탐색 (Binary Search)**        | [🔗 binary-search.md](binary-search.md)                     |
