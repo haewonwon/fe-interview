@@ -18,24 +18,22 @@
 
 ## 📚 목차
 
-| 주제                              | 문서                                              |
-| --------------------------------- | ------------------------------------------------- |
-| **정렬 (Sorting)**                | [🔗 Sorting.md](Sorting.md)                       |
-| **탐색 (Search)**                 | [🔗 Search.md](Search.md)                         |
-| **분할 정복(Divide and Conquer)** | [🔗 Divide_and_Conquer.md](Divide_and_Conquer.md) |
+| 주제                              | 문서                                                        |
+| --------------------------------- | ----------------------------------------------------------- |
+| **정렬 (Sorting)**                | [🔗 sorting.md](sorting.md)                                 |
+| **탐색 (Search)**                 | [🔗 search.md](search.md)                                   |
+| **분할 정복 (Divide and Conquer)**| [🔗 divide-and-conquer.md](divide-and-conquer.md)           |
 
-<!-- | 주제                                 | 문서                                                |
-| ------------------------------------ | --------------------------------------------------- |
-| **재귀 (Recursion)**                 | [🔗 Recursion.md](Recursion.md)                     |
-| **그리디 (Greedy)**                  | [🔗 Greedy.md](Greedy.md)                           |
-| **투포인터 (Two Pointers)**          | [🔗 Two_Pointers.md](Two_Pointers.md)               |
-| **슬라이딩 윈도우 (Sliding Window)** | [🔗 Sliding_Window.md](Sliding_Window.md)           |
-| **이진 탐색 (Binary Search)**        | [🔗 Binary_Search.md](Binary_Search.md)             |
-| **DFS / BFS**                        | [🔗 DFS_BFS.md](DFS_BFS.md)                         |
-| **백트래킹 (Backtracking)**          | [🔗 Backtracking.md](Backtracking.md)               |
-| **다이나믹 프로그래밍 (DP)**         | [🔗 Dynamic_Programming.md](Dynamic_Programming.md) |
-| **비트마스킹 (Bitmasking)**          | [🔗 Bitmasking.md](Bitmasking.md)                   |
-| **우선순위 큐 / 힙**                 | [🔗 PriorityQueue_Heap.md](PriorityQueue_Heap.md)   | -->
+<!-- | **재귀 (Recursion)**                 | [🔗 recursion.md](recursion.md)                             |
+| **그리디 (Greedy)**                  | [🔗 greedy.md](greedy.md)                                   |
+| **투포인터 (Two Pointers)**          | [🔗 two-pointers.md](two-pointers.md)                       |
+| **슬라이딩 윈도우 (Sliding Window)** | [🔗 sliding-window.md](sliding-window.md)                   |
+| **이진 탐색 (Binary Search)**        | [🔗 binary-search.md](binary-search.md)                     |
+| **DFS / BFS**                        | [🔗 dfs-bfs.md](dfs-bfs.md)                                 |
+| **백트래킹 (Backtracking)**          | [🔗 backtracking.md](backtracking.md)                       |
+| **다이나믹 프로그래밍 (DP)**         | [🔗 dynamic-programming.md](dynamic-programming.md)         |
+| **비트마스킹 (Bitmasking)**          | [🔗 bitmasking.md](bitmasking.md)                           |
+| **우선순위 큐 / 힙**                 | [🔗 priority-queue-heap.md](priority-queue-heap.md)         | -->
 
 ---
 

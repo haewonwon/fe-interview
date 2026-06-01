@@ -1,4 +1,4 @@
-# 📂 Frontend Essentials 개요
+# 🖥️ Frontend 개요
 
 ## 📌 학습 목표
 
@@ -19,17 +19,42 @@
 
 ## 📚 목차
 
-| 주제                           | 문서                                        |
-| ------------------------------ | ------------------------------------------- |
-| **Virtual Dom**                | [🔗 Virtual_Dom.md](Virtual_DOM.md)         |
-| **TanStack Query**             | [🔗 TanStack_Query.md](TanStack_Query.md)   |
-| **Content Type**               | [🔗 Content_Type.md](Content_Type.md)       |
-| **React Hook**                 | [🔗 React_Hook.md](React_Hook.md)           |
-| **Package Manager**            | [🔗 Package_Manager.md](Package_Manager.md) |
-| **Next.js**                    | [🔗 Next.js.md](Next.js.md)                 |
-| **BFF (Backend For Frontend)** | [🔗 BFF.md](BFF.md)                         |
-| **웹뷰 (WebView)**             | [🔗 WebView.md](WebView.md)                 |
-| **never, unknown type**        | [🔗 Never_Unknown.md](Never_Unknown.md)     |
+### core/
+| 주제             | 문서                                              |
+| ---------------- | ------------------------------------------------- |
+| **Content Type** | [🔗 content-type.md](core/content-type.md)        |
+
+### language/typescript/
+| 주제                    | 문서                                                              |
+| ----------------------- | ----------------------------------------------------------------- |
+| **never, unknown type** | [🔗 never-unknown.md](language/typescript/never-unknown.md)       |
+
+### library-framework/react/
+| 주제               | 문서                                                                        |
+| ------------------ | --------------------------------------------------------------------------- |
+| **Virtual DOM**    | [🔗 virtual-dom.md](library-framework/react/virtual-dom.md)                 |
+| **React Hook**     | [🔗 react-hook.md](library-framework/react/react-hook.md)                   |
+| **TanStack Query** | [🔗 tanstack-query.md](library-framework/react/tanstack-query.md)           |
+
+### library-framework/next-js/
+| 주제        | 문서                                                              |
+| ----------- | ----------------------------------------------------------------- |
+| **Next.js** | [🔗 next-js.md](library-framework/next-js/next-js.md)             |
+
+### library-framework/react-native/
+| 주제              | 문서                                                                    |
+| ----------------- | ----------------------------------------------------------------------- |
+| **웹뷰 (WebView)** | [🔗 webview.md](library-framework/react-native/webview.md)             |
+
+### backend-basic/
+| 주제                           | 문서                                          |
+| ------------------------------ | --------------------------------------------- |
+| **BFF (Backend For Frontend)** | [🔗 bff.md](backend-basic/bff.md)             |
+
+### ecosystem/
+| 주제                | 문서                                              |
+| ------------------- | ------------------------------------------------- |
+| **Package Manager** | [🔗 package-manager.md](ecosystem/package-manager.md) |
 
 ---
 

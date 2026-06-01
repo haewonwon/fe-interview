@@ -15,16 +15,16 @@
 | -------------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
 | **혼자 공부하는 컴퓨터 구조+운영체제** | 기본 OS 개념 및 구조 학습 | [🔗 링크](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=299014282) |
 
-<!-- | **OSTEP (Three Easy Pieces)**          | 심화 운영체제 이론 학습   | [🔗 링크](https://pages.cs.wisc.edu/~remzi/OSTEP/)                      | -->
+<!-- | **OSTEP (Three Easy Pieces)** | 심화 운영체제 이론 학습 | [🔗 링크](https://pages.cs.wisc.edu/~remzi/OSTEP/) | -->
 
 ## 📚 목차
 
-| 주제                  | 문서                                      |
-| --------------------- | ----------------------------------------- |
-| **OS 개요 및 커널**   | [🔗 OS_Intro.md](OS_Intro.md)             |
+| 주제                  | 문서                                        |
+| --------------------- | ------------------------------------------- |
+| **OS 개요 및 커널**   | [🔗 os-intro.md](os-intro.md)               |
+| **프로세스와 스레드** | [🔗 process-thread.md](process-thread.md)   |
 
-<!-- | **프로세스와 스레드** | [🔗 Process_Thread.md](Process_Thread.md) | -->
-<!-- | **CPU 스케줄링**      | [🔗 CPU_Scheduling.md](CPU_Scheduling.md) | -->
+<!-- | **CPU 스케줄링**      | [🔗 cpu-scheduling.md](cpu-scheduling.md)   | -->
 
 ---
 
